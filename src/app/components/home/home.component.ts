@@ -9,14 +9,5 @@ import { Component, Input, SimpleChange } from '@angular/core';
 })
 export class HomeComponent {
 
-  @Input() title!:number;
 
-  constructor() {
-    console.log('home constructor');
-  }
-
-  ngOnChanges( changes:SimpleChange  ): void {
-  console.log('home ngOnChanges');
-  
-  }
 }

@@ -11,9 +11,6 @@ import { HomeComponent } from "./components/home/home.component";
 })
 export class AppComponent {
   title = 'original';
-  counter = 0;
- changeCounter() {
-   this.counter++;
- }
+
 
 }
